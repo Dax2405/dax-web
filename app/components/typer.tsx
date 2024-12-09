@@ -4,20 +4,20 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 export function Typer() {
   const words = [
     {
-      text: "Build",
+      text: "I'm",
       className: "dark:text-accent-foreground",
     },
     {
-      text: "awesome",
+      text: "a",
     },
     {
-      text: "apps",
+      text: "computer",
     },
     {
-      text: "with",
+      text: "science",
     },
     {
-      text: "Aceternity.",
+      text: "student.",
       className: "dark:text-primary",
     },
   ];
