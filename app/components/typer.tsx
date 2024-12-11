@@ -4,17 +4,13 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 export function Typer() {
   const words = [
     {
-      text: "I'm",
-      className: "dark:text-accent-foreground",
-    },
-    {
       text: "a",
     },
     {
-      text: "computer",
+      text: "Computer",
     },
     {
-      text: "science",
+      text: "Science",
     },
     {
       text: "student.",
@@ -23,8 +19,10 @@ export function Typer() {
   ];
   return (
     <div className="flex flex-col items-start justify-center h-[40rem] ">
-      <div className="flex justify-center text-xl">
-        <p className=" text-accent-foreground mb-10">Hi, I&apos;m </p>
+      <div className="flex justify-center text-3xl ">
+        <p className=" text-accent-foreground lg:mb-8 md:mb-7 sm:mb-4">
+          Hi, I&apos;m{" "}
+        </p>
         <h1 className="ml-2 font-bold dark:text-primary"> Dax</h1>
       </div>
       <TypewriterEffect words={words} />
